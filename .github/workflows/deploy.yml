@@ -29,7 +29,7 @@ jobs:
       - name: Deploy to Cloud Run
         run: |
           gcloud run deploy my-viz-service \
-            --image=docker.io/guenpa92/viz:latest \
+            --image=docker.io/guenpa92/viz:v2 \
             --platform=managed \
             --region=us-central1 \
             --allow-unauthenticated
