@@ -3,7 +3,7 @@ name: Deploy to Cloud Run
 on:
   push:
     branches:
-      - master  # or 'main', whichever your repo uses
+      - master  # or 'main', whichever your repo usess
 
 jobs:
   deploy-to-cloud-run:
