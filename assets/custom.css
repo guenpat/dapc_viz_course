@@ -1,0 +1,53 @@
+/* 
+   The parent class .dark-dropdown is assigned in app.py via className='dark-dropdown'
+   so these rules only apply to those dropdowns, not all dropdowns in the app. 
+*/
+
+/* 1) The main control box (when dropdown is closed). */
+.dark-dropdown .Select-control {
+  background-color: #444 !important;
+  border: 1px solid #333 !important;
+  color: #fff !important;
+}
+
+/* 2) Text color inside the selected value area. */
+.dark-dropdown .Select-value-label,
+.dark-dropdown .Select-placeholder {
+  color: #fff !important;
+}
+
+/* 3) The dropdown menu that appears when opened. */
+.dark-dropdown .Select-menu-outer {
+  background-color: #333 !important;
+  border: 1px solid #222 !important;
+  color: #fff !important;
+}
+
+/* 4) Individual options in the menu. */
+.dark-dropdown .Select-option {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+/* 5) Hover/focus styling for an option. */
+.dark-dropdown .Select-option.is-focused {
+  background-color: #555 !important;
+  color: #fff !important;
+}
+
+/* 6) For multi-select chips/values inside the box. */
+.dark-dropdown .Select--multi .Select-value {
+  background-color: #555 !important;
+  color: #fff !important;
+  border: 1px solid #444 !important;
+}
+
+/* 7) The 'x' icon in multi-select chips. */
+.dark-dropdown .Select--multi .Select-value-icon {
+  fill: #fff !important;
+}
+
+/* 8) If an option is disabled or out of focus, give it slightly lighter text. */
+.dark-dropdown .Select-option.is-disabled {
+  color: #888 !important;
+}
