@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app
 
 # 6. Expose port 8050 (optional for local reference; not strictly needed for Cloud Run)
-EXPOSE 8050
+EXPOSE 8080
 
 # 7. Specify the command to start the app
 #    We'll use gunicorn to serve the Dash app in production
