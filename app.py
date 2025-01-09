@@ -319,5 +319,5 @@ def update_scatter_and_cards(
 # 5. Run the App
 # ----------------------------------------------------------
 if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 8050))
+    port = int(os.environ.get("PORT", 8080))
     app.run_server(debug=False, host='0.0.0.0', port=port)
