@@ -176,7 +176,7 @@ dbc.Row([
             dcc.RadioItems(
                 id='2d-graph-type',
                 options=[
-                    {'label': 'Scatter', 'value': 'scatter'},
+                    {'label': 'Scatter ', 'value': 'scatter'},
                     {'label': 'Line', 'value': 'line'}
                 ],
                 value='scatter',
